@@ -14,9 +14,9 @@ source:
   sha256: 580551a463c14d7186f62e029504f2e95dd9cbbaaef3f979221ddffafb036597
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -39,8 +39,7 @@ about:
   license: GPL-3
   summary: Basic classes and methods for Natural Language Processing.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
