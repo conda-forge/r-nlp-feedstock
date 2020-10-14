@@ -35,10 +35,11 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=NLP
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Basic classes and methods for Natural Language Processing.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
