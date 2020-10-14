@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=NLP
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nlp-feedstock/blob/master/LICENSE.txt)
 
 Summary: Basic classes and methods for Natural Language Processing.
-
-
 
 Current build status
 ====================
