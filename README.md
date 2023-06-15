@@ -1,11 +1,11 @@
-About r-nlp
-===========
+About r-nlp-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nlp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=NLP
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nlp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Basic classes and methods for Natural Language Processing.
 
