@@ -1,4 +1,4 @@
-{% set version = "0.3-0" %}
+{% set version = "0.3-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/NLP_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/NLP/NLP_{{ version }}.tar.gz
-  sha256: c0a261c80151e71e9af1a0991ed49d8cb4dc150337297f40f30d9a22f9d7b3ec
+  sha256: 18a0bb1a3df4368ce9dfafc61ef95c5ab2a6e65f9ab3cbe9f44266471391c4f4
 
 build:
   number: 0
